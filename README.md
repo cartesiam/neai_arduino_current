@@ -8,6 +8,15 @@ NanoEdge AI Studio's purpose is to select the best NanoEdge AI Library possible 
 See [NanoEdge AI Studio Documentation](https://cartesiam-neai-docs.readthedocs-hosted.com/) for more information about NanoEdge AI Studio and NanoEdge AI Library.
 
 ## How to use the open source code to create your own smart current sensor
+We will need the following hardware (or equivalent):
+  * 1 Arduino Nano IoT 33
+  * 1 Current clamp such as CR3111-3000 from CR Magnetics Inc.
+  * 2 10 k ohm resistors
+  * 1 150 ohm resistor
+  * 1 10 uF capacitor
+  * A breadboard is recommended
+  * Some electrical wires
+
 All instructions are available at [NanoEdge AI Studio tutorial](https://cartesiam-neai-docs.readthedocs-hosted.com/tutorials/vib_arduino/vib_arduino.html).
 This tutorial is organized as follow:
 * [Objectives of the tutorial](https://cartesiam-neai-docs.readthedocs-hosted.com/tutorials/vib_arduino/vib_arduino.html#i-objectives-of-the-tutorial)
