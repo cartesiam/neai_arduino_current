@@ -22,6 +22,7 @@ We will require the following softwares:
   * The Arduino IDE: https://www.arduino.cc/en/main/software
   
 ## Hardware setup
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ![Image of circuit setup] (https://cartesiam-neai-docs.readthedocs-hosted.com/_images/pince_amp_bb2.png)
 
 ## Making a Data Logger
