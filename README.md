@@ -92,6 +92,7 @@ Then copy the static library libneai.a in the Documents\Arduino\libraries\NanoEd
 Finally, copy the NanoEdgeAI.h header file in the Documents\Arduino\libraries\NanoEdgeAI\src directory and delete the place holder txt present.
 
 Open your sketch, and modify the line setting the number of learns:
+#define NUMBER_LEARN 100 -> #define NUMBER_LEARN 85
 From 100 to the number given at the end of step 4 (in my case 85)
 
 Connect the Arduino Nano 33 IoT board to your computer.
