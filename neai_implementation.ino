@@ -4,7 +4,7 @@ int sensorPin = A0;                 // Select the input pin for the potentiomete
 float sensor_buffer[SAMPLES] = {0}; // Array buffering the samples from the sensor before Learning/Detecting
 
 #define SAMPLES 128                 // Nbr samples collected
-#define NUMBER_LEARN 65             // Nbr of learn cycles needed
+#define NUMBER_LEARN 100            // Nbr of learn cycles needed
 
 float sim1 = 100.0;
 float sim2 = 100.0;
