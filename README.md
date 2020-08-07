@@ -85,11 +85,11 @@ To include your NEAI Studio library on your Arduino board follow on.
 ### Compiling and linking your NanoEdge AI Library
 In NEAI Studio Step 6, 'Deploy' you download the NanoEdge AI Library. You will get a .zip file.
 
-Copy the repository NanoEdgeAI from the deployment folder in this github repository into the Arduino library folder Documents\Arduino\libraries.
+Copy the repository NanoEdgeAI in this github repository into the Arduino library folder Documents\Arduino\libraries.
 
-Then copy the static library libneai.a in the Documents\Arduino\libraries\NanoEdgeAI\src\cortex-m0plus directory.
+Then copy the static library libneai.a in the Documents\Arduino\libraries\NanoEdgeAI\src\cortex-m0plus directory and delete the place holder txt present.
 
-Finally, copy the NanoEdgeAI.h header file in the Documents\Arduino\libraries\NanoEdgeAI\src directory.
+Finally, copy the NanoEdgeAI.h header file in the Documents\Arduino\libraries\NanoEdgeAI\src directory and delete the place holder txt present.
 
 Open your sketch, and modify the line setting the number of learns:
 From 100 to the number given at the end of step 4 (in my case 85)
