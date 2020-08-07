@@ -23,9 +23,10 @@ We will require the following softwares:
   
 ## Hardware setup
 ![Image of circuit setup](https://cartesiam-neai-docs.readthedocs-hosted.com/_images/pince_amp_bb2.png)
-![Image of circuit setup] (https://cartesiam-neai-docs.readthedocs-hosted.com/_images/pince_amp_bb2.png)
 
 ## Making a Data Logger
+ 
+
 
 ## Finding the best Machine Learning library using NanoEdge AI Studio
 
