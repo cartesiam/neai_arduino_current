@@ -27,7 +27,7 @@ We will require the following softwares:
 
 ## Making a Data Logger
 Our first step will be to make a data logger. This will be used to collect the data to find and test the best Machine Learning model in NEAI (NanoEdge AI) Studio.
-If you are using the setup presented above and the Arduino Nano IoT 33 flash the code attached in datalogger.
+If you are using the setup presented above and the Arduino Nano IoT 33 flash the code in data_logger.ino
 Else use the code as a starting point and modify it based on your needs.
 The data logger will be used to send data from the board to the computer running NEAI Studio. 
 Once we have our data logger up and running we can check it using Arduino's serial monitor to chek that the data is coming in properly.
