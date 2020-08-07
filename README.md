@@ -82,3 +82,23 @@ In case you do not have a NanoEdge AI Studio pro license you can also find tutor
 
 To include your NEAI Studio library on your Arduino board follow on. 
 
+### Compiling and linking your NanoEdge AI Library
+In NEAI Studio Step 6, 'Deploy' you download the NanoEdge AI Library. You will get a .zip file.
+
+Copy the repository NanoEdgeAI from the deployment folder in this github repository into the Arduino library folder Documents\Arduino\libraries.
+
+Then copy the static library libneai.a in the Documents\Arduino\libraries\NanoEdgeAI\src\cortex-m0plus directory.
+
+Finally, copy the NanoEdgeAI.h header file in the Documents\Arduino\libraries\NanoEdgeAI\src directory.
+
+Open your sketch, and modify the line setting the number of learns:
+From 100 to the number given at the end of step 4 (in my case 85)
+
+Connect the Arduino Nano 33 IoT board to your computer.
+
+Deploy the sketch on your board. Have a look at your serial for the detection results.
+
+Congratulations! You now have a smart sensor! Don't hesitate to modify the .ino script to add functionalities (blinking, wifi,...) to report that your vacuum now has a full bag.
+Find other tutorials to make your sensor smart at https://cartesiam-neai-docs.readthedocs-hosted.com/tutorials/
+And a good demo of use by Max Maxfield at: https://www.eejournal.com/article/i-just-created-my-first-ai-ml-app-part-1/
+And feel free to try this with other sensors to monitor anything and everything in your house.
